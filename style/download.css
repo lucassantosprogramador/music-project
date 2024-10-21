@@ -1,0 +1,47 @@
+#download {
+  position: relative;
+  & .download-container {
+    border-radius: 1.5rem;
+    flex-wrap: wrap;
+    background: var(--surface-color);
+    padding: 3rem 1.5rem 15rem;
+    font: var(--fs-base)/1.6 var(--ff-sans);
+    color: var(--text-color-secondary);
+
+      & .apps {
+        flex-wrap: wrap;
+  
+        & img {
+          width: 11.125rem;
+          height: 3.5rem;
+        }
+      }
+  }
+
+  & .download-img {
+    position: absolute;
+    width: 14.875rem;
+    height: 20rem;
+    right: -3.5rem;
+    bottom:3rem;
+  }
+}
+
+@media (width >= 80em) {
+  #download {
+    & .download-container {
+      & .download-text {
+        & p {
+          width: 40rem;
+        }
+      }
+    }
+
+    & .download-img {
+      position: absolute;
+      width: 29.125rem;
+      height: 39.5rem;
+      bottom: 5rem;
+    }
+  }
+}

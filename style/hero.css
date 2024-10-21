@@ -1,0 +1,43 @@
+#hero {
+  background: url('../assets/img/bg-hero.svg') no-repeat bottom center/contain;
+  padding-bottom: 15rem;
+  & header {
+   text-align: center; 
+
+   & img {
+    width: 100%;
+    margin-bottom: 1rem;
+   }
+
+   & p {
+    margin-top: .5rem;
+    font: var(--fw-md) 1.25rem/1.4 var(--ff-sans);
+    color: var(--text-color-secondary);
+   }
+  }
+
+  .buttons {
+    justify-content: center;
+    margin-top: 2rem;
+  }
+}
+
+@media (width >= 80em) {
+  #hero {
+    & header {
+     & img {
+      width: initial;
+      margin-bottom: 1.5rem;
+     }
+
+     & p {
+      margin-top: 1rem;
+      font: var(--fw-md) 2.5rem/1.4 var(--ff-sans);
+     }
+    }
+
+    .buttons {
+      margin-top: 3rem;
+    }
+  }
+}

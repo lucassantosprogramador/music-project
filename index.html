@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="./style/index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zingle</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="container py-base">
+      <nav class="flex items-center gap-md">
+        <a href="#">
+          <img src="./assets/icon/Zingen.svg" alt="Zingen">
+        </a>
+
+        <a href="#about" class="desktop-only a-hover">Conheça o app</a>
+        <a href="#features" class="desktop-only a-hover">Funcionalidades</a>
+        <a href="#princing" class="desktop-only a-hover">Planos e preços</a>
+        
+        <button href="#download" class="btn btn-sm">Baixar agora</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="py-xl">
+      <div class="container">
+        <header>
+          <img src="./assets/icon/Music bars.svg" class="img" alt="Music bars">
+          <h1>Quem canta seus males espanta</h1>
+          <p>Cantar nunca foi tão fácil</p>
+        </header>
+  
+        <div class="buttons flex gap-base items-center">
+          <a href="#princing" aria-label="Ver planos" class="btn btn-md"></a>
+          <a href="#download" class="btn btn-md">Baixar agora</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-xl">
+      <div class="container grid even-columns">
+        <div class="grid gap-sm">
+          <span class="span">Conheça o app</span>
+          <h2>O aplicativo perfeito para aprender a cantar</h2>
+          <p>Nosso algoritmo de Inteligência Artificial permite remover a voz original e manter as melodias das músicas. Dessa forma, temos o maior repertório musical para Karaokê! Além disso, ao cantar, sua voz e afinação é comparada pelo algoritmo permitindo uma avaliação precisa da sua performance te ajudando a melhorar seu canto. </p>
+        </div>
+        <div class="about-img grid items-center">
+          <img src="./assets/img/App mockups.png" alt="App mockups">
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="container py-xl">
+      <div class="boxs grid gap-lg">
+        <div class="grid gap-base box-1 box">
+          <img src="./assets/icon/MagicWand.svg" alt="MagicWand">
+          <div class="grid gap-sm">
+            <h3>A maior biblioteca de músicas de Karaokê!</h3>
+            <p>Nossa IA remove a voz de qualquer música e a deixa pronta pra cantar, num passe de mágica</p>
+          </div>
+        </div>
+        <div class="grid gap-base box-2 box">
+          <img src="./assets/icon/GameController.svg" alt="MagicWand">
+          <div class="grid gap-sm">
+            <h3>Experiência Gamificada</h3>
+            <p>Sua performance é pontuada de acordo com nosso algoritmo ultra preciso. Desafie-se, ganhe reconhecimento e comemore sua evolução!</p>
+          </div>
+          <img src="./assets/img/Tela 2.png" class="box-img desktop-only" alt="">
+        </div>
+        <div class="grid gap-base box-3 box">
+          <img src="./assets/icon/MicrophoneStage.svg" alt="MagicWand">
+          <div class="grid gap-sm">
+            <h3>Grave suas performances</h3>
+            <p>Seja para compartilhar com os amigos ou para acompanhar sua evolução, nosso recurso de gravação de áudio e video permite que vocÇe aproveite a experiência ao máximo!</p>
+          </div>
+        </div>
+        <div class="grid gap-base box-4 box">
+          <img src="./assets/icon/UsersThree.svg" alt="MagicWand">
+          <div class="grid gap-sm">
+            <h3>Compartilhe com a comunidade</h3>
+            <p>Compartilhe suas gravações com a comunidade, interaja e explore a performance vocal de outras pessoas no seu feed!</p>
+          </div>
+          <img src="./assets/img/Tela 1.png" class="box-img desktop-only" alt="">
+        </div>
+        <div class="grid gap-base box-5 box">
+          <img src="./assets/icon/MusicNotes.svg" alt="MagicWand">
+          <div class="grid gap-sm">
+            <h3>Letras em tempo-real</h3>
+            <p>Nunca perca o ritmo com as letras das músicas sincronizadas e exibidas em tempo real. Você também pode ativar a voz original da música para ajudar.</p>
+          </div>
+          <img src="./assets/img/Tela 3.png" class="box-img desktop-only" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section id="princing" class="container py-xl grid gap-lg">
+      <header class="grid gap-sm title">
+        <span class="span">
+          Planos e preços
+        </span>
+        <h2>Assine e tenha acesso ilimitado a todas as funcionalidades</h2>
+      </header>
+      <div class="cards even-columns gap-lg items-center">
+        <div class="card grid gap-lg">
+          <div class="grid gap-md price">
+            <div>
+              <h4>Básico</h4>
+              <p>Baixe o app e comce a cantar agora mesmo!</p>
+            </div>
+
+            <h4 class="price">Grátis</h4>
+
+            <a href="#" class="btn btn-sm" aria-label="Baixar agora"></a>
+          </div>
+
+          <span class="separador"></span>
+
+          <ul role="list" class="grid gap-base">
+            <li>Com anúncios</li>
+            <li>Até 5 músicas por dia</li>
+            <li>Cante apenas as músicas disponíveis no plano gratuito</li>
+          </ul>
+        </div>
+        <div class="card grid gap-lg card-premiun">
+          <div class="destaque">
+            <span class="">1 mês gratis</span>
+          </div>
+          <div class="grid gap-md price">
+            <div>
+              <h4>Básico</h4>
+              <p>Baixe o app e comce a cantar agora mesmo!</p>
+            </div>
+
+            <h4>R$ 24,90 <span>/mês</span></h4>
+
+            <a href="#" class="btn btn-sm">Experimente de graça</a>
+          </div>
+
+          <span class="separador"></span>
+
+          <ul role="list" class="grid gap-base">
+            <li>Sem interrupção de anúncios</li>
+            <li>Cante quantas músicas quiser</li>
+            <li>Cante todas as músicas da biblioteca</li>
+          </ul>
+        </div>
+        <div class="card grid gap-md">
+          <div class="grid gap-md price">
+            <div>
+              <h4>Básico</h4>
+              <p>Baixe o app e comce a cantar agora mesmo!</p>
+            </div>
+
+            <h4>R$ 24,90 <span>/mês por pessoa</span></h4>
+
+            <a href="#" class="btn btn-sm" aria-label="Assinar agora"></a>
+          </div>
+
+          <span class="separador"></span>
+
+          <ul role="list" class="grid gap-base">
+            <li>Sem interrupção de anúncios</li>
+            <li>Cante quantas músicas quiser</li>
+            <li>Cante todas as músicas da biblioteca</li>
+          </ul>
+          <p>Mínimo de 4 pessoas no plano família.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="container py-xl">
+      <div class="download-container">
+        <div class="grid gap-xl">
+          <div class="download-text grid gap-sm">
+            <span class="span">Download</span>
+            <h2>Bora cantar?</h2>
+            <p>Desperte seu potencial de estrela, liberte sua voz e faça parte da comunidade musical mais envolvente. Baixe o Zingen agora e transforme suas performances em experiências inesquecíveis!</p>
+          </div>
+          <div class="apps flex gap-base">
+            <img src="./assets/img/App store.svg" alt="App store">
+            <img src="./assets/img/Play Store.svg" alt="Play store">
+          </div>
+        </div>
+        <img class="download-img" src="./assets/img/rapaz-ouvindo-musica-com-fones-de-ouvido-e-cantando-no-aplicativo-de-karaoke-removebg 1.png" alt="">
+      </div>
+    </section>
+
+    <footer id="footer" class="container">
+      <nav class="grid even-columns">
+        <img src="./assets/icon/Zingen.svg" alt="Zingen">
+  
+        <div class="grid even-columns">
+          <ul role="list">
+            <li>Produto</li>
+            <li>Funcionalidades</li>
+            <li>Planos e preços</li>
+            <li>Download</li>
+          </ul>
+          <ul role="list">
+            <li>Empresa</li>
+            <li>Sobre nós</li>
+            <li>Trabalhe conosco</li>
+            <li>Blog</li>
+          </ul>
+          <ul role="list">
+            <li>Legal</li>
+            <li>Termos de uso</li>
+            <li>Política de privacidade</li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="footer-social flex gap-md">
+        <div class="flex gap-md">
+          <a href="#" class="social" aria-label="tiktok"></a>
+          <a href="#" class="social" aria-label="instagram"></a>
+          <a href="#" class="social" aria-label="twitter"></a>
+          <a href="#" class="social" aria-label="discord"></a>
+        </div>
+
+        <p>©2024 Zingen Technologies, Inc.</p>
+      </div>
+    </footer>
+  </main>
+
+</body>
+</html>
